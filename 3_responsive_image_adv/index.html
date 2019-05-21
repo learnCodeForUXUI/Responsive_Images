@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid for Landing Pages</title>
+    <link rel="stylesheet" href="css/design.css">
+</head>
+
+<body>
+    <nav>Nav Bar Goes Here</nav>
+
+    <div class="featured">
+
+        <div class="featuredText">
+            <h2>Your Main Title</h2>
+            <p>Your desciption, giving context to the content will go here on the page.</p>
+        </div>
+
+    </div>
+    <div class="grid padded">
+        <div class="twothird col">
+            <picture>
+                <source media="(max-width: 600px)" srcset="img/small.jpg">
+                <source media="(max-width: 1024px)" srcset="img/medium.jpg">
+                <img src="img/large.jpg" alt="landscape" class="rsp">
+            </picture>
+        </div>
+
+        <div class="col3 md3">
+            <p>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </div>
+    </div>
+</body>
+
+</html>
